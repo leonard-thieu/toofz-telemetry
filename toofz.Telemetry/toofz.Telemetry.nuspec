@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>toofz.Telemetry</id>
+    <version>1.0.0</version>
+    <title>toofz.Telemetry</title>
+    <authors>Leonard Thieu</authors>
+    <owners>Leonard Thieu</owners>
+    <licenseUrl>https://github.com/leonard-thieu/toofz-telemetry/blob/ae4822e73796a75f79702048ed6412d291e6b5df/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/leonard-thieu/toofz-telemetry</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Telemetry-related code used by toofz projects.</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>toofz telemetry</tags>
+  </metadata>
+</package>

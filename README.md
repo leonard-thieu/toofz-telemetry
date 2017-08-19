@@ -1,1 +1,1 @@
-# toofz-telemetry
+# Telemetry
