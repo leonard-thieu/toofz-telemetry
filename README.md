@@ -12,12 +12,14 @@ Create `NuGet.Config` in your **solution folder**.
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageSources>
-    <add key="AppVeyor - toofz.Telemetry" value="https://ci.appveyor.com/nuget/toofz-telemetry-ic7g3nub6jx6" />
+    <add key="toofz" value="https://www.myget.org/F/toofz/api/v3/index.json" />
   </packageSources>
 </configuration>
 ```
 
-Restart Visual Studio. `AppVeyor - toofz.Telemetry` will now show up as a package source in NuGet Package Manager. Select `AppVeyor - toofz.Telemetry` as the package source. Install the `toofz.Telemetry` package.
+Restart Visual Studio. `toofz` will now show up as a package source in NuGet Package Manager. Select `toofz` as the package source. Search for and install the `toofz.Telemetry` package.
+
+![Installing toofz.Telemetry](https://user-images.githubusercontent.com/5265970/29636122-78baab74-881d-11e7-8f8a-f033b32462d4.png)
 
 ### Usage
 
@@ -37,6 +39,10 @@ Restart Visual Studio. `AppVeyor - toofz.Telemetry` will now show up as a packag
   </TelemetryInitializers>
 </ApplicationInsights>
 ```
+
+`toofz` and `toofz API` are components in a multi-component application.
+
+![App map](https://user-images.githubusercontent.com/5265970/29636238-e67320ec-881d-11e7-909e-750cee9a0242.png)
 
 #### ServiceTelemetryInitializer
 
