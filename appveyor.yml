@@ -1,6 +1,9 @@
 version: 1.0.3.{build}
 image: Visual Studio 2017
 
+branches:
+  only:
+    - master
 configuration:
   - Release
 environment:
@@ -17,6 +20,7 @@ assembly_info:
   assembly_version: $(appveyor_build_version)
 
 install:
+  - nuget update -Self
   - git clone https://github.com/leonard-thieu/toofz-build.git Scripts
   
 before_build:
