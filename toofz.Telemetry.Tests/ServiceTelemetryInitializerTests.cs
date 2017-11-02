@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace toofz.Telemetry.Tests
 {
-    class ServiceTelemetryInitializerTests
+    public class ServiceTelemetryInitializerTests
     {
         [TestClass]
         public class Initialize

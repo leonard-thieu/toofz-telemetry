@@ -7,8 +7,8 @@ namespace toofz.Telemetry
 {
     public sealed class ServiceTelemetryInitializer : ITelemetryInitializer
     {
-        static readonly string Version = Assembly.GetCallingAssembly().GetName().Version.ToString();
-        static readonly string SessionId = Guid.NewGuid().ToString();
+        private static readonly string Version = Assembly.GetCallingAssembly().GetName().Version.ToString();
+        private static readonly string SessionId = Guid.NewGuid().ToString();
 
         public void Initialize(ITelemetry telemetry)
         {

@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace toofz.Telemetry.Tests
 {
-    class CloudRoleNameTelemetryInitializerTests
+    public class CloudRoleNameTelemetryInitializerTests
     {
         [TestClass]
         public class Initialize
