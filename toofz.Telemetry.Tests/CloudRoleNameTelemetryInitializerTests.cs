@@ -1,14 +1,13 @@
 ﻿using Microsoft.ApplicationInsights.DataContracts;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
 namespace toofz.Telemetry.Tests
 {
     public class CloudRoleNameTelemetryInitializerTests
     {
-        [TestClass]
         public class Initialize
         {
-            [TestMethod]
+            [Fact]
             public void SetsCloudRoleName()
             {
                 // Arrange
@@ -21,7 +20,7 @@ namespace toofz.Telemetry.Tests
                 telemetryInitializer.Initialize(eventTelemetry);
 
                 // Assert
-                Assert.AreEqual(cloudRoleName, eventTelemetry.Context.Cloud.RoleName);
+                Assert.Equal(cloudRoleName, eventTelemetry.Context.Cloud.RoleName);
             }
         }
     }

@@ -7,12 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
 		README.md = README.md
-		toofz.Telemetry\toofz.Telemetry.nuspec = toofz.Telemetry\toofz.Telemetry.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toofz.Telemetry", "toofz.Telemetry\toofz.Telemetry.csproj", "{02026F5A-AFA6-4E24-9BF1-7AA208F176FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toofz.Telemetry", "toofz.Telemetry\toofz.Telemetry.csproj", "{ACF765E7-30BD-40B9-90DC-0A8364890117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toofz.Telemetry.Tests", "toofz.Telemetry.Tests\toofz.Telemetry.Tests.csproj", "{D83B0904-5349-403C-AC14-FF5994781BF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toofz.Telemetry.Tests", "toofz.Telemetry.Tests\toofz.Telemetry.Tests.csproj", "{F7DE439A-1515-4C56-A72A-D3951E63C240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02026F5A-AFA6-4E24-9BF1-7AA208F176FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02026F5A-AFA6-4E24-9BF1-7AA208F176FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02026F5A-AFA6-4E24-9BF1-7AA208F176FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02026F5A-AFA6-4E24-9BF1-7AA208F176FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D83B0904-5349-403C-AC14-FF5994781BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D83B0904-5349-403C-AC14-FF5994781BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D83B0904-5349-403C-AC14-FF5994781BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D83B0904-5349-403C-AC14-FF5994781BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF765E7-30BD-40B9-90DC-0A8364890117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF765E7-30BD-40B9-90DC-0A8364890117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF765E7-30BD-40B9-90DC-0A8364890117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF765E7-30BD-40B9-90DC-0A8364890117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DE439A-1515-4C56-A72A-D3951E63C240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DE439A-1515-4C56-A72A-D3951E63C240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DE439A-1515-4C56-A72A-D3951E63C240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DE439A-1515-4C56-A72A-D3951E63C240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

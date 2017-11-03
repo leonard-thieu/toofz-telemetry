@@ -1,14 +1,13 @@
 ﻿using Microsoft.ApplicationInsights.DataContracts;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
 namespace toofz.Telemetry.Tests
 {
     public class ServiceTelemetryInitializerTests
     {
-        [TestClass]
         public class Initialize
         {
-            [TestMethod]
+            [Fact]
             public void SetsVersion()
             {
                 // Arrange
@@ -19,10 +18,10 @@ namespace toofz.Telemetry.Tests
                 telemetryInitializer.Initialize(eventTelemetry);
 
                 // Assert
-                Assert.IsNotNull(eventTelemetry.Context.Component.Version);
+                Assert.NotNull(eventTelemetry.Context.Component.Version);
             }
 
-            [TestMethod]
+            [Fact]
             public void SetsSessionId()
             {
                 // Arrange
@@ -33,7 +32,7 @@ namespace toofz.Telemetry.Tests
                 telemetryInitializer.Initialize(eventTelemetry);
 
                 // Assert
-                Assert.IsNotNull(eventTelemetry.Context.Session.Id);
+                Assert.NotNull(eventTelemetry.Context.Session.Id);
             }
         }
     }
